@@ -1,0 +1,11 @@
+:root {
+  --black-bg: rgba(0, 0, 0, 0.664);
+}
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Edu+NSW+ACT+Foundation:wght@500&family=Mukta:wght@300&family=Ubuntu:wght@300&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+}
