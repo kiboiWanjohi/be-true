@@ -1,0 +1,28 @@
+.post {
+  /* not sure of the height  */
+  /* height: 90vh; */
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid lightblue;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+.post-img {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightcoral;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+.post-avatar {
+  margin-right: 18px;
+}
+.post-text {
+  font-weight: normal;
+  padding: 18px;
+}
