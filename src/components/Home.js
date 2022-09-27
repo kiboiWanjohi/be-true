@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Post from "./Post";
-import db from "./Firebase";
+import { db } from "./Firebase";
 const Home = () => {
   const [posts, setPosts] = useState([]);
   // const trialPosts =   {
